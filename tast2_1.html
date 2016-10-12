@@ -20,8 +20,10 @@
 	var Odisplay = document.getElementById("aqi-display");
 	
 	Obutton.addEventListener('click', function() {
-		if(Oaqi.value.length>0){
-				Odisplay.innerText=Oaqi.value;
+		if(!isNaN(Oaqi.value)&&Oaqi.value.length>0){
+			Odisplay.innerText=Oaqi.value;
+		}else{
+			alert( "请输入有效数值");		
 		}
 	})
 })();
