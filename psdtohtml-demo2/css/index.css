@@ -18,7 +18,7 @@
 	width: 43px;
 	height: 43px;
 	background: url("../images/reback-btn.png") no-repeat center;
-	background-size: 14px 13px;/* ÓëÉè¼ÆÍ¼Ò»±È¶ş */
+	background-size: 14px 13px;/* ä¸è®¾è®¡å›¾ä¸€æ¯”äºŒ */
 }
 
 .user-box-01{
@@ -59,7 +59,6 @@
 
 .user-box-01 .content .test-infor{
 	position: absolute; 
-	/* display:inline-block; */
 	width:100%;
 	top: 0;
 	margin-top: 18px;
@@ -72,19 +71,17 @@
 	display:flex;
 	position: absolute; 
 	-webkit-justify-content: center;
-    /* justify-content: center; */
 	top: 0;
 	margin-top: 72px;
 	width: 100%;
 }
 .user-box-01 .input-text{
 	padding-left: 10px;
-	
 	width: 194px;
 	height: 30px;
 	border-radius: 2px;
 	border: none;
-	background: rgba(255,255,255,0.23);/* ÉèÖÃÍ¸Ã÷¶È */
+	background: rgba(255,255,255,0.23);/* è®¾ç½®é€æ˜åº¦ */
 }
 .user-box-01 .input-btn{
 	display: block;
@@ -103,10 +100,8 @@
 }
 .userform-item {
 	display: flex;
-	/* -webkit-justify-content: center; */
 	margin-top:16px;
 	width: 100%;
-	/* overflow: hidden; */
 }
 
 .box{
@@ -193,10 +188,11 @@
 }
 
 .userform-itemtwo {
-	display: inline-flex;
-	-webkit-justify-content: center;
-	width: 100%;
+	display: flex;
+	width: 320px; 
 	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .userform .uesercode .text-code{
